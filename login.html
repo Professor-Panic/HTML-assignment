@@ -4,56 +4,56 @@
         <meta charset="UTF-8">
         <style>
             .main {
-            background: linear-gradient(135deg, #0f0f14, #1a1a2e);
-            width: 99%;
-            height: 99%;
-            position: absolute;
-        }
+        background: linear-gradient(135deg, #0f0f14, #1a1a2e);
+        width: 99%;
+        height: 99%;
+        position: absolute;
+    }
 
-        .box {
-            width: 30%;
-            height: 65%;
-            color: #f5f5f5;
-            border-radius: 14px;
-            background: linear-gradient(145deg, #2b2d42, #3a3f5c);
-            position: absolute;
-            top: 25%;
-            left: 33%;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-        }
+    .box {
+        width: 30%;
+        height: 65%;
+        color: #f5f5f5;
+        border-radius: 14px;
+        background: linear-gradient(145deg, #2b2d42, #3a3f5c);
+        position: relative;
+        top: 15%;
+        left: 33%;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
 
-        .card_text {
-            position: relative;
-            top: 10%;
-            left: 20%;
-            color: #eaeaea;
-        }
+    .card_text {
+        position: relative;
+        top: 5%;
+        left: 20%;
+        color: #eaeaea;
+    }
 
-        input {
-            width: 200px;
-            height: 40px;
-            color: #ffffff;
-            background-color: #121212;
-            border: 1px solid #2f2f3a;
-            border-radius: 12px;
-            padding: 8px;
-        }
+    input {
+        width: 200px;
+        height: 20px;
+        color: #ffffff;
+        background-color: #121212;
+        border: 1px solid #2f2f3a;
+        border-radius: 12px;
+        padding: 8px;
+    }
 
-        input::placeholder {
-            color: #9aa0a6;
-        }
+    input::placeholder {
+        color: #9aa0a6;
+    }
 
-        .login {
-            width: 200px;
-            height: 40px;
-            background: linear-gradient(135deg, #6c63ff, #4dd0e1);
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 12px;
-            font-weight: bold;
-        }
+    .login {
+        width: 200px;
+        height: 40px;
+        background: linear-gradient(135deg, #6c63ff, #4dd0e1);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+        font-weight: bold;
+    }
         </style>
     </head>
     <body>
@@ -78,7 +78,8 @@
                     <input type="date"name="birth_date"placeholder="Date of Birth">
                     <br>
                     <br>
-                    <input type="number"placeholder="ID or Passport number">
+                    <label for="Passport"></label>
+                    <input type="number"name="Passport"placeholder="Passport Number">
                     <br>
                     <br>
                     <div class="login">
